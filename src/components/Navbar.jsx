@@ -11,12 +11,12 @@ const Navbar = () => {
         <img src={assets.logo} alt="logo" />
 
         <ul className="hidden md:flex gap-7 text-white [&_li_a]:cursor-pointer [&_li_a]:hover:text-gray-400">
-  <li><a href="#Header">Home</a></li>
-  <li><a href="#About">About</a></li>
-  <li><a href="#Projects">Projects</a></li>
-  <li><a href="#Testimonials">Testimonials</a></li>
-</ul>
-        <button type="button" className="hidden bg-white md:block px-8 py-2 rounded-full">Signup</button>
+          <li><a href="#Header">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Testimonials">Testimonials</a></li>
+        </ul>
+        <button type="button" className="hidden curdor-pointer bg-white md:block px-8 py-2 rounded-full">Signup</button>
 
 
       </div>
