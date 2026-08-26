@@ -13,9 +13,9 @@ const Header = () => {
       <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white [&>h2]:text-5xl [&>h2]:sm:text-6xl [&>h2]:md:text-[82px] [&>h2]:inline-block [&>h2]:max-w-3xl [&>h2]:font-semibold [&>h2]:pt-20">
 
         <h2>Explore homes that fit your dreams</h2>
-        <div>
-          <a href="#">Projects</a>
-          <a href="#">Contact Us</a>
+        <div className="space-x-6 mt-16 [&_a]:border  [&_a]:px-8 [&_a]:py-3 [&_a]:rounded">
+          <a href="#Projects" className="border-white">Projects</a>
+          <a href="#Contact" className="bg-blue-500 border-blue-500">Contact Us</a>
         </div>
       </div>
 
