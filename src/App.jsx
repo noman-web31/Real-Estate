@@ -1,19 +1,22 @@
 import React from 'react'
-import Header from "./components/Header" 
+import Header from "./components/Header"
+import About from './components/About'
 
 const App = () => {
   return (
     <>
-    
-    <div className='w-full overflow-hidden'>
 
-    <Header />
+      <div className='w-full overflow-hidden'>
 
-    </div>
-   
+        <Header />
+        <About />
 
 
-    
+      </div>
+
+
+
+
     </>
   )
 }

@@ -10,6 +10,7 @@ const Header = () => {
     >
       <Navbar />
 
+
       <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white [&>h2]:text-5xl [&>h2]:sm:text-6xl [&>h2]:md:text-[82px] [&>h2]:inline-block [&>h2]:max-w-3xl [&>h2]:font-semibold [&>h2]:pt-20">
 
         <h2>Explore homes that fit your dreams</h2>
